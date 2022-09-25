@@ -555,6 +555,8 @@ img {
 
 .contact-link {
   text-decoration-line: none;
+    transition:  var(--time-duration) var(--cubic-bezier);
+
 }
 
 .contacts-link:not(:last-child) {
